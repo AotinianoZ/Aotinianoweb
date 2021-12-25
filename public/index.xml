@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HOME on Alonso Otiniano</title>
+    <link>https://aotinianoz.netlify.app/</link>
+    <description>Recent content in HOME on Alonso Otiniano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Alonso Otiniano</copyright>
+    <lastBuildDate>Fri, 24 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://aotinianoz.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Geoenviromental Water Resource</title>
+      <link>https://aotinianoz.netlify.app/post/2021-12-24-geoenviromental-water-resource/</link>
+      <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://aotinianoz.netlify.app/post/2021-12-24-geoenviromental-water-resource/</guid>
+      <description>Data Anlysis in EnvirommentalFirst we are going to download data of INGEMMET, that is a peruvian institute of geology, metallurgic and mining that made several research about many topics importants for the developer of our country the file is in Arequipa Basin.
+Download Information and Read:We have to download the data because is not connect to webhost of the .csv file. If we can the .</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>https://aotinianoz.netlify.app/post/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>https://aotinianoz.netlify.app/post/2020-12-01-r-rmarkdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
+    </item>
+    
+    <item>
+      <title>Sample project</title>
+      <link>https://aotinianoz.netlify.app/portfolio/sample-project/</link>
+      <pubDate>Thu, 02 May 2019 19:47:09 +0200</pubDate>
+      
+      <guid>https://aotinianoz.netlify.app/portfolio/sample-project/</guid>
+      <description>This would be a description of your sample project. You can add any content you&amp;rsquo;d like.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+  </channel>
+</rss>

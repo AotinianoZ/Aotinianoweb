@@ -1,0 +1,44 @@
+---
+title: Geoenviromental Water Resource
+author: Alonso Otiniano
+date: '2021-12-24'
+slug: []
+categories:
+  - Geoenviroment
+tags:
+  - Base Line
+description: ~
+publishDate: '2021-12-24T21:12:22-05:00'
+---
+
+# Data Anlysis in Envirommental 
+
+First we are going to download data of INGEMMET, that is a peruvian institute of geology, metallurgic and mining that made several research about many topics importants for the developer of our country the file is in [Arequipa Basin](http://metadatos.ingemmet.gob.pe:8080/geonetwork/srv/spa/catalog.search#/metadata/394d7f24-6c1e-46d1-ac34-d7f13c1c5c66).
+
+## Download Information and Read:
+
+We have to download the data because is not connect to webhost of the .csv file. If we can the .csv file we can do the next step to read the .csv
+
+```r
+data <- read.csv("http://metadatos.ingemmet.gob.pe:8080...")
+```
+
+But if we do not have, do the next:
+
+```{r, eval=FALSE}
+choose.files()
+```
+
+We have to install `readxl` in our rstudio software to read the file .xlsx.
+
+```{r}
+library(readxl)
+data <- read_xlsx("C:\\Users\\alons\\Downloads\\BD_GA47C_AREQUIPA.xlsx")
+```
+
+## Check information
+
+```{r}
+library(DT)
+datatable(data.frame(colnames(data)))
+```
